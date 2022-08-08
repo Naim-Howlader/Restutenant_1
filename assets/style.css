@@ -50,7 +50,7 @@ body{
 .nav-link ul li a:hover::after{
     width: 100%;
 }
-.nav-link ul li a:last-child(5):hover::after{
+.nav-link ul li:nth-last-child(1) a:hover::after{
     width: 0;
 }
 .top-head-text h2{
