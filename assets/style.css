@@ -1,0 +1,441 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/*Top-head section start here*/
+.top-head-bg{
+    background-image: url(image/top-head-bg-1.png);
+    width: 100%;
+    height: 780px;
+}
+.navbar{
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+}
+.navbar{
+    width: 100%;
+    height: 75px;
+    background-color: #282321;
+}
+.navbar .logo img{
+    width: 50px;
+}
+
+.navbar .nav-link ul li{
+    display: inline-block;
+    list-style: none;
+}
+.navbar .nav-link ul li a{
+    display: block;
+    margin-right: 20px;
+    
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+}
+.nav-link ul li a::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: -5px;
+    left: 0;
+    background-color: #f64b3c;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.nav-link ul li a:hover::after{
+    width: 100%;
+}
+.nav-link ul li a:last-child(5):hover::after{
+    width: 0;
+}
+.top-head-text h2{
+    font-size: 90px;
+    color: #fff;
+    margin-top: 150px;
+}
+.top-head-text p{
+    font-size: 32px;
+    color: #fff;
+    padding-top: 45px;
+    padding-bottom: 65px;
+}
+.top-head-text button{
+    border-radius: 30px;
+    width: 300px;
+    height: 60px;
+    background-color: #f64b3c;
+    font-weight: 800;
+    color: #fff;
+}
+.top-head-text button:hover{
+    color: #fff;
+}
+
+/*Top-head section end here*/
+
+
+/*Chef section start here*/
+.chef-section{
+    background-color: #f6eedf;
+}
+.chef-text h2{
+    font-size: 62px;
+    padding-top: 90px;
+    color: #f64b3c;
+    margin-bottom: 50px;
+}
+.chef-text p{
+    font-size: 25px;
+    color: #f64b3c;
+    padding-bottom: 70px;
+}
+.chef-section .chef-img .single-chef img{
+    display: flex;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.chef-section .chef-img .single-chef h5{
+    color: #f64b3c;
+    font-size: 25px;
+    padding-top: 30px;
+}
+.chef-section .chef-img .single-chef p{
+    color: #f64b3c;
+    font-size: 15px;
+    margin-bottom: 140px;
+}
+/*Chef section end here*/
+
+
+/*Best burger section start here*/
+.best-burger-section{
+    background-color: #f64b3c;
+}
+.best-burger-section img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-top: 170px;
+    margin-bottom: 160px;
+}
+.best-burger-text h2{
+    font-size: 75px;
+    margin-top: 140px;
+    margin-bottom: 60px;
+    color: #fff;
+}
+.best-burger-text p{
+    font-size: 25px;
+    margin-bottom: 60px;
+    color: #fff;
+}
+.best-burger-text button{
+    border-radius: 30px;
+    width: 300px;
+    height: 60px;
+    background-color: #fff;
+    color: #f64b3c;
+    font-weight: 800;
+}
+.best-burger-text button:hover{
+    color: #f64b3c;
+}
+
+
+/*Best burger section end here*/
+
+
+/*Big burger section start here*/
+.big-burger-section{
+    background-color: #fff;
+}
+.big-burger-section img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-top: 170px;
+    margin-bottom: 160px;
+}
+.big-burger-text h2{
+    font-size: 75px;
+    margin-top: 140px;
+    margin-bottom: 60px;
+    color: #f64b3c;
+}
+.big-burger-text p{
+    font-size: 25px;
+    margin-bottom: 60px;
+    color: #f64b3c;
+}
+.big-burger-text button{
+    border-radius: 30px;
+    width: 300px;
+    height: 60px;
+    background-color: #f64b3c;
+    color: #fff;
+    font-weight: 800;
+}
+.big-burger-text button:hover{
+    color: #fff;
+}
+
+
+/*Big burger section end here*/
+
+/*Statistics section start here*/
+.statistics-section{
+    background-color: #f64b3c;
+}
+.statistics-text h2{
+    font-size: 62px;
+    padding-top: 93px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+.statistics-text p{
+    font-size: 24px;
+    padding-bottom: 60px;
+    color: #fff;
+}
+.statistics-counter .single-counter h2{
+    font-size: 100px;
+    color: #fff;
+    align-items: center;
+    margin-top: 50px;
+}
+.statistics-counter .single-counter p{
+    font-size: 33px;
+    color: #fff;
+}
+.statistics-counter .single-counter{
+    border: 5px solid #fff;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.padding{
+    padding-bottom: 170px;
+}
+/*Statistics section end here*/
+
+
+/*Packeg section start here*/
+
+.package-section{
+    background-color: #f6eedf;
+}
+.package-section input{
+    border-radius: 20px;
+    height: 50px;
+    color: #f64b3c;
+}
+.package-section .package-text h2{
+    font-size: 75px;
+    padding-top: 104px;
+    padding-bottom: 50px;
+    color: #f64b3c;
+}
+.include{
+    width: 100%;
+    height: 80px;
+    background-color: #0984e3;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.include .logo h3{
+    font-size: 30px;
+    color: #fff;
+}
+.include .link ul li{
+    display: inline-block;
+}
+.include .link ul li a{
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    line-height: 80px;
+    padding-right: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+.all_info{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    margin: 40px;
+    background-color: #fff;
+}
+.all_info img{
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+.all_info button{
+    margin-bottom: 20px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.bg-img{
+    background-image: url(img/login-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    position: fixed;
+    height: 100%;
+}
+/*Packeg section end here*/
+
+/*Barry section start here*/
+.barry-section{
+    background-image: url('../assets/image/barry-bg-2.png');
+    background-size: cover;
+    width: 100%;
+    height: 800px;   
+}
+.barry-text p{
+    padding-top: 300px;
+    padding-bottom: 85px;
+    font-size: 36px;
+    color: #fff;
+}
+.barry-text h4{
+    font-size: 45px;
+    padding-bottom: 225px;
+    color: #fff;
+}
+
+/*Barry section end here*/
+
+/*Update section start here*/
+.update-section{
+    background-color: #f6eedf;
+}
+.update-text h2{
+    font-size: 75px;
+    padding-top: 230px;
+    padding-bottom: 60px;
+    color: #f64b3c;
+}
+.update-text p{
+    font-size: 30px;
+    padding-bottom: 75px;
+    color: #f64b3c;
+}
+.update-sub{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.update-sub form{
+    background-color: #fff;
+    width: 700px;
+    margin-bottom: 250px;
+    height: 70px;
+    display: flex;
+    border-radius: 30px;
+}
+.update-sub form input{
+    flex: 1;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+.update-sub form button{
+    background-color: #f64b3c;
+    outline: none;
+    border: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 200px;
+    color: #fff;
+    font-size: 25px;
+}
+
+/*Update section end here*/
+
+
+
+/*Footer section start here*/
+.footer-section{
+    background-color: #000;
+}
+.footer-section .title-text h4{
+    font-size: 30px;
+    padding-top: 225px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+.footer-section .title-icon ul li{
+    display: inline-block;
+    padding-left: 15px;
+}
+.footer-section .title-icon ul li:nth-child(1){
+    padding-left: 0px;
+}
+.footer-section .title-icon ul{
+    padding-inline-start: 0px;
+}
+.footer-section .title-text p{
+    font-size: 23px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+.footer-section .title-icon ul li a i.fa{
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    list-style: none;
+    color: #000;
+}
+.footer-section .title-icon ul li a i.fa:hover{
+    background-color: #f64b3c;
+    color: #fff;
+    transition: 0.5s;
+}
+.footer-section .title-icon{
+    padding-bottom: 200px;
+}
+.footer-section .about-text h4{
+    font-size: 30px;
+    padding-top: 225px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+.footer-section .about-text ul li{
+    list-style: none;
+}
+.footer-section .about-text ul{
+    padding-inline-start: 0px;
+}
+.footer-section .about-text ul li a{
+    color: #fff;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+/*Footer section end here*/
+
+
+
+
+
+
+
