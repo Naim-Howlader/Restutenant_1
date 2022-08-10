@@ -49,7 +49,7 @@ include("header.php")
                     <div class="top-head-text">
                         <h2>Get Cashback<br>up to 50%</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Suspendisse consectetur justo<br> eu nunc consequat.</p>
-                        <a href="#product"><button class="btn">ORDER NOW</button></a>
+                        <a href="product"><button class="btn">ORDER NOW</button></a>
                     </div>
                 </div>
             </div>
@@ -186,7 +186,6 @@ include("header.php")
 
 
         <!--Package section start here-->
-
         <div id="product">
             <div class="package-section">
                 <div class="container">
@@ -194,6 +193,7 @@ include("header.php")
                                             <div class="col-md-12">
                                                 <div class="package-text">
                                                     <h2 class="text-center">Popular Package</h2>
+                                                    
                                                 </div>
                                             </div>
                                             <div class="col-md-3"></div>
@@ -202,11 +202,12 @@ include("header.php")
                                         </div>
                                     <div class="row">
                                             <div class="">
-                                                <div class="row flex align-items-center" id="example" data-aos="zoom-in-up">
+                                            
+                                                <div class="row flex align-items-center" id="example" data-aos="szoom-in-up">
                                                 
                                                 </div>
 
-                                                <div class="row flex align-items-center justify-content-between" id="search_result_food" data-aos="zoom-in-up">
+                                                <div class="row flex align-items-center justify-content-between" id="search_result_food" data-aos="szoom-in-up">
                                                 
                                                 </div>
                                             </div>
@@ -214,7 +215,7 @@ include("header.php")
                 </div>
             </div>
         </div>
-        <!--Package section end here-->
+        <!--package section end here-->
 
         <!--Barry section start here-->
         <div id="promo">
@@ -321,6 +322,7 @@ include("header.php")
     <script src="js/jquery.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/test.js"></script>
     <script src="assets/js-plugin/counterup.min.js"></script>
     <script src="assets/js-plugin/jquery.waypoints.min.js"></script>
     <script src="assets/js-plugin/jquery.smoothscroll.min.js"></script>

@@ -20,7 +20,7 @@ $(document).ready(function(){
     function frontuserrow(front){
         var frontData = "";
         frontData += `<div class=" col-md-3 all_info">
-                        <form action='manage_cart.php' method='post'>
+                        <form class='form-submit' action="" id="final">
                         <div class="d-flex">
                         <img src="uploads/${front.food_img} " width="200px" height="200px" class="center">
                         </div>
@@ -28,9 +28,9 @@ $(document).ready(function(){
                         <p>${front.food_des}</p>
                         <div class="d-flex align-items-center justify-content-between">
                         <h4 class="prize">${front.food_prize}</h4>
-                        <button type="submit" class="btn btn-outline-danger" name="Add_To_Cart">Add to cart</button>
-                        <input type="hidden" name="Item_Name" value="${front.food_name}">
-                        <input type="hidden" name="Prize" value="${front.food_prize}">
+                        <input type="hidden" class="name" value="${front.food_name}">
+                        <input type="hidden" class="prize" value="${front.food_prize}">
+                        <button class="btn btn-outline-danger submitbtn" id="addbtnid" type='submit'>Add to cart</button>
                         </div>
                         </form>
                     </div>`
@@ -86,6 +86,8 @@ $(document).ready(function(){
             },
         });
     });
+    getUsers();
+   
     getUsers();
     $("#live_search").keyup(function(){
         var input = $(this).val();
