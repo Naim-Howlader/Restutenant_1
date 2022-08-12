@@ -29,7 +29,7 @@ $(document).ready(function(){
                         <div class="d-flex align-items-center justify-content-between">
                         <h4 class="prize">${front.food_prize}</h4>
                         <input type="hidden" class="name" value="${front.food_name}">
-                        <input type="hidden" class="prize" value="${front.food_prize}">
+                        <input type="hidden" id="prize" value="${front.food_prize}">
                         <button class="btn btn-outline-danger submitbtn" id="addbtnid" type='submit'>Add to cart</button>
                         </div>
                         </form>

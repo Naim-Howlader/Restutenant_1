@@ -34,12 +34,9 @@ include("header.php")
                         <li><a href="#promo" class="">promo</a></li>
                         <li><a href="#about" class="">about</a></li>
                         <?php
-                            $count = 0;
-                            if(isset($_SESSION['cart'])){
-                                $count = count($_SESSION['cart']);
-                            };
+                            
                         ?>
-                        <li><a href="mycart.php" class="btn btn-outline-danger hvr-buzz-out">Cart (<?= $count?>)</a></li>
+                        <li><a href="mycart.php" class="btn btn-outline-danger hvr-buzz-out"><i class="fa fa-shopping-cart" aria-hidden="true"><span id="cart_num"></span></i></a></li>
                     </ul>
                 </div>
                 </div>
