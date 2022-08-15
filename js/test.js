@@ -1,18 +1,29 @@
 $(document).ready(function(){
     $(document).on('submit','#final',function(e){
         e.preventDefault();
-        console.log("hi");
+        //console.log("hi");
         var $form = $(this).closest(".form-submit");
         var food_name = $form.find(".name").val();
         var food_prize = $form.find("#prize").val();
-        console.log(food_name);
-        console.log(food_prize);
+        var food_img = $form.find("#img_url").val();
+        //console.log(food_name);
+        //console.log(food_prize);
         $.ajax({
             url : "manage_cart.php",
             method : "post",
-            data : {food_name:food_name, food_prize:food_prize},
+            data : {food_name:food_name, food_prize:food_prize, food_img:food_img},
             success : function(response){
-                $("#message").html(response);
+                console.log(response);
+                if(response){
+                    Swal.fire({
+                        position: 'top-midded',
+                        icon: 'success',
+                        title: 'Your food added to cart',
+                        showConfirmButton: false,
+                        timer: 1500
+                      })
+                }
+                
                 load_cart();
             },
         });
@@ -29,4 +40,29 @@ $(document).ready(function(){
             },
         });
     };
+    $(document).on('submit','#remove_cart',function(e){
+        e.preventDefault();
+        var remove = $("#remove_item").val();
+        //console.log(item);
+        $.ajax({
+            url : "manage_cart.php",
+            method : "post",
+            data : {remove:remove},
+            success : function(response){
+                if(response){
+                    setTimeout(function(){
+                        window.location.reload(1);
+                     }, 1200);
+                    Swal.fire({
+                        position: 'top-midded',
+                        icon: 'success',
+                        title: 'Food removed from cart',
+                        showConfirmButton: false,
+                        timer: 1200
+                      })
+                }
+            }
+        })
+       
+    })
 });

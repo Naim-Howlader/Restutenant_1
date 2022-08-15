@@ -13,6 +13,8 @@ include("header.php")
     <link rel="stylesheet" href="assets/aos.css">  
     <link rel="stylesheet" href="assets/hover-min.css">  
     <link rel="stylesheet" href="assets/animate.min.css">  
+    <link rel="stylesheet" href="assets/owl.carousel.min.css">  
+    <link rel="stylesheet" href="assets/owl.theme.default.css">  
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
@@ -41,12 +43,44 @@ include("header.php")
                 </div>
                 </div>
             </div>
-            <div class="container">
-            <div class="row">
-                    <div class="top-head-text">
-                        <h2>Get Cashback<br>up to 50%</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Suspendisse consectetur justo<br> eu nunc consequat.</p>
-                        <a href="product"><button class="btn">ORDER NOW</button></a>
+            <div class="containers">
+                <div class="owl-carousel owl-theme">
+                    <div class="bg-here">
+                        <div class="container">
+                        <div class="item1">
+                        <div class="top-head-text">
+                            <h2>Get Cashback<br>up to 50%</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Suspendisse consectetur justo<br> eu nunc consequat.</p>
+                            <a href="product"><button class="btn">ORDER NOW</button></a>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="item2">
+                    <div class="bg-here-second">
+                        <div class="container">
+                        <div class="item1">
+                        <div class="top-head-text">
+                            <h2>Get Cashback<br>up to 50%</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Suspendisse consectetur justo<br> eu nunc consequat.</p>
+                            <a href="product"><button class="btn">ORDER NOW</button></a>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item3">
+                    <div class="bg-here-third">
+                        <div class="container">
+                        <div class="item1">
+                        <div class="top-head-text">
+                            <h2>Get Cashback<br>up to 50%</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Suspendisse consectetur justo<br> eu nunc consequat.</p>
+                            <a href="product"><button class="btn">ORDER NOW</button></a>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -320,10 +354,13 @@ include("header.php")
     <script src="js/popper.js"></script>
     <script src="js/script.js"></script>
     <script src="js/test.js"></script>
-    <script src="assets/js-plugin/counterup.min.js"></script>
+    <script src="assets/js-plugin/jquery.counterup.min.js"></script>
     <script src="assets/js-plugin/jquery.waypoints.min.js"></script>
     <script src="assets/js-plugin/jquery.smoothscroll.min.js"></script>
+    <script src="assets/js-plugin/owl.carousel.min.js"></script>
     <script src="assets/js-plugin/aos.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/sweetalert2.all.min.js"></script>
 </body>
 </html>
 </body>

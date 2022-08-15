@@ -27,7 +27,7 @@ $(document).ready(function(){
                         <h3>${front.food_name}</h3>
                         <p>${front.food_des}</p>
                         <div class="d-flex align-items-center justify-content-between">
-                        <h4 class="prize">${front.food_prize}</h4>
+                        <h4 class="prize">${front.food_prize} TK</h4>
                         <input type="hidden" class="name" value="${front.food_name}">
                         <input type="hidden" id="prize" value="${front.food_prize}">
                         <button class="btn btn-outline-danger submitbtn" id="addbtnid" type='submit'>Add to cart</button>
@@ -123,12 +123,10 @@ $(document).ready(function(){
             },
         });
     });
+    
     AOS.init({
 		duration : 1500
 	});
     $('html').smoothScroll();
-    $('.counter').counterUp({
-        delay: 10,
-        time: 1000
-    });
+   
 });

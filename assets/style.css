@@ -2,8 +2,21 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 /*Top-head section start here*/
-.top-head-bg{
+.bg-here{
     background-image: url(image/top-head-bg-1.png);
+    position: relative;
+    width: 100%;
+    height: 780px;
+}
+.bg-here-second{
+    background-image: url(image/slider-1.jpg);
+    position: relative;
+    width: 100%;
+    height: 780px;
+}
+.bg-here-third{
+    background-image: url(image/slider-6.jpg);
+    position: relative;
     width: 100%;
     height: 780px;
 }
@@ -54,15 +67,16 @@ body{
     width: 0;
 }
 .top-head-text h2{
+    position: absolute;
     font-size: 90px;
     color: #fff;
-    margin-top: 150px;
+    padding-top: 130px;
 }
 .top-head-text p{
     font-size: 32px;
     color: #fff;
-    padding-top: 45px;
-    padding-bottom: 65px;
+    padding-top: 360px;
+    padding-bottom: 50px;
 }
 .top-head-text button{
     border-radius: 30px;
@@ -432,6 +446,60 @@ body{
 }
 
 /*Footer section end here*/
+
+
+
+.admin-bg{
+    background-color: #4367D5;
+}
+.link-footer p{
+    padding-top: 400px;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 18px;
+}
+.admin-logo h4{
+    color: #fff;
+    padding: 10px;
+}
+.admin-logo li{
+    list-style: none;
+    margin-top: 10px;
+}
+.admin-profile-pic img{
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    margin: 0 auto;
+    margin: 60px;
+}
+.admin-link ul li{
+    list-style: none;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.admin-link ul li i.fa{
+    font-size: 22px;
+}
+.admin-link ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 50px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.admin-main-section .admin-title h2{
+    padding: 20px;
+}
+.admin-main-section .food-btn h2{
+    padding: 20px;
+}
+.admin-main-section .food-btn li{
+    list-style: none;
+}
+.admin-main-section .food-btn li button{
+    margin: 20px;
+}
 
 
 

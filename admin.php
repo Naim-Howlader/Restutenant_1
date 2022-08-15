@@ -21,35 +21,57 @@ session_start();
   </div>';
     if($_SESSION["name"]){
     ?>
-    <div class="include bg-secondary">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 header d-flex align-items-center justify-content-between">
-                <div class="logo">
-                    <h3>Admin panel</h3>
+    <div class="wrapper">
+        <div class="admin-navbar d-flex">
+            <div class="col-md-2 admin-bg">
+                <div class="row">
+                    <div class="admin-logo d-flex">
+                        <h4>Logo Here</h4>
+                        <li><a href="logout.php"><button class="btn btn-danger">Logout</button></a></li>
+                    </div>
                 </div>
-                <div class="link">
-                    <ul>
-                        <li><a href="logout.php">Logout</a></li>
-                        <li><button type='button' class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#add-edit-modal" id='adduserbtn'>Add food</button></li>
-                    </ul>
+                <div class="row d-flex">
+                    <div class="admin-profile-pic">
+                    <img src="assets/image/chef-1.png" alt="" width="100px">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="admin-link">
+                        <ul>
+                            <div class="home-link d-flex">
+                            <li><i class="fa fa-home" aria-hidden="true"></i></li>
+                            <li><a href="admin.php">Home</a></li>
+                            </div>
+
+                            <div class="home-link d-flex">
+                            <li><i class="fa fa-tasks" aria-hidden="true"></i></li>
+                            <li><a href="food-item.php">Food Item</a></li>
+                            </div>
+
+                            <div class="home-link d-flex">
+                            <li><i class="fa fa-user" aria-hidden="true"></i></li>
+                            <li><a href="">Users</a></li>
+                            </div>
+
+                            <div class="home-link d-flex">
+                            <li><i class="fa fa-shopping-cart" aria-hidden="true"></i></li>
+                            <li><a href="food-orders.php">Orders</a></li>
+                            </div>
+                        </ul>
+                        <div class="link-footer">
+                            <p>Copyright Logo here corporation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10 admin-main-section">
+                <div class="container">
+                <div class="admin-title">
+                    <h2>Welcome Admin</h2>
+                </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="layer d-flex ">
-                <div class="col-md-4">
-                <input type="text" class="form-control" id="live_search" autocomplete="off" placeholder="search food item....">
-                </div>
-                <h3 class='text-center ms-5'>All Food Items</h3><hr>
-                </div>
-            </div>
-        </div>
-        <div class="mt-5 row">
-            <?php include('tableData.php'); ?>
-        </div>
-    </div>
     </div>
 
     <?php include('form.php'); ?>

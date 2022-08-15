@@ -31,7 +31,7 @@ if(isset($_POST['food_prize'])){
             "Prize"     => $food_prize,
             "Quantity"  => 1,
         );
-        echo "added";
+        //echo "added";
         exit();
     }
     
