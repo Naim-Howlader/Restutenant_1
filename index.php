@@ -51,7 +51,7 @@ include("header.php")
                         <div class="top-head-text">
                             <h2>Get Cashback<br>up to 50%</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Suspendisse consectetur justo<br> eu nunc consequat.</p>
-                            <a href="product"><button class="btn">ORDER NOW</button></a>
+                            <a href="#product"><button class="btn" name="Add_To_Cart">ORDER NOW</button></a>
                         </div>
                         </div>
                         </div>
@@ -63,7 +63,7 @@ include("header.php")
                         <div class="top-head-text">
                             <h2>Get Cashback<br>up to 50%</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Suspendisse consectetur justo<br> eu nunc consequat.</p>
-                            <a href="product"><button class="btn">ORDER NOW</button></a>
+                            <a href="#product"><button class="btn" name="Add_To_Cart">ORDER NOW</button></a>
                         </div>
                         </div>
                         </div>
@@ -76,7 +76,7 @@ include("header.php")
                         <div class="top-head-text">
                             <h2>Get Cashback<br>up to 50%</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Suspendisse consectetur justo<br> eu nunc consequat.</p>
-                            <a href="product"><button class="btn">ORDER NOW</button></a>
+                            <a href="#product"><button class="btn" name="Add_To_Cart">ORDER NOW</button></a>
                         </div>
                         </div>
                         </div>
@@ -141,11 +141,11 @@ include("header.php")
                         <div class="best-burger-text">
                             <h2>Best Burger</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
-                            <form action="manage_cart.php" method="post">
-                            <button class="btn" name="Add_To_Cart">ORDER NOW</button>
+                            
+                            <a href="#product"><button class="btn" name="Add_To_Cart">ORDER NOW</button></a>
                             <input type="hidden" name="Item_Name" value="Best Burger">
                             <input type="hidden" name="Prize" value="600 TK">
-                            </form>
+                            
                         </div>
                     </div>
                 </div>
@@ -161,11 +161,11 @@ include("header.php")
                         <div class="big-burger-text">
                             <h2>Big Burger</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Vivamus lacinia odio vitae<br> vestibulum vestibulum. </p>
-                            <form action="manage_cart.php" method="post">
-                            <button class="btn" name="Add_To_Cart">ORDER NOW</button>
+                            
+                            <a href="#product"><button class="btn" name="Add_To_Cart">ORDER NOW</button></a>
                             <input type="hidden" name="Item_Name" value="Big Burger">
                             <input type="hidden" name="Prize" value="500 TK">
-                            </form>
+                            
                         </div>
                     </div>
                     <div class="col-md-4">
